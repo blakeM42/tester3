@@ -5,7 +5,7 @@
 	$message = $_POST['message'];
 	
 	//Database connection 
-	$conn = new mysqli('localhost','root','','mangolawines');
+	$conn = new mysqli('https://blakem42.github.io/','tester3','','ContactUs');
 	if($conn->connect_error){
 		die('Connection Failed : '.$conn->connect_error);
 	}else{
